@@ -7,7 +7,7 @@
  * Iterate through the array passed down but exclude the pivot.
  * While in the loop, compare the item to the pivot. If greater than pivot,
  * store the item into `greater`. If less than pivot, store the item into `less`. 
- * Merge `less`, pivot, and `greater`. The procedures go on and on until
+ * Merge `less`, pivot, and `greater`. The process goes on and on until
  * there's only one item left to sort.
  * @param {Number[]} array - Array of numbers
  * @returns {Number[]}
