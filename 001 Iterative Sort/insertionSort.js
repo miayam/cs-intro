@@ -8,7 +8,7 @@
  * passed down. At the same time, keep track of the correct index that
  * we're trying to find. Go on until the condition no longer met (we have
  * iterated through all sorted items from right to left or the unsorted
- * item passed down is bigger than one of the sorted items). Then, when
+ * item passed down is bigger than the number it compares to). Then, when
  * the loop has stopped, we insert the item to the index that we kept
  * track of before. Repeat the process until the last unsorted item.
  * @param {Number[]} array 
