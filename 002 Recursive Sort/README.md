@@ -16,10 +16,10 @@ from one another and then sort and merge them recursively along
 the way.
 
 ## Quick Sort
-Pick a `pivot` from array and compare each element to it.
-Seperate them into two caregories `less` and `greater`. 
+Pick a `pivot` number from array and compare each item to it.
+Seperate array into two caregories `less` and `greater`. 
 Store all items less than `pivot` to `less`.
 Store all items greater than `pivot` to `greater`.
-Merge `less`, `pivot`, and `greater` accordingly.
-The procedures go on and on until there's only one item
-left in array.
+Repeat the same procedure to `less` and `greater` until there's
+only one item left. Merge `less`, `pivot`,
+and `greater` recursively along the way.
