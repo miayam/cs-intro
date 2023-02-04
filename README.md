@@ -1,4 +1,4 @@
-# Algorithm
+# Enough Computer Science To Get By
 
 The summary of [Complete Intro To Computer Science](https://btholt.github.io/complete-intro-to-computer-science/) by Brian Holt on FrontendMasters. 
 
