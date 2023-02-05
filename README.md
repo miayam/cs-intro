@@ -8,6 +8,7 @@ This is a journey towards becoming a serious web developer.
 
 The fundamental skill that gets my foot in the door.
 
-> Me: Knock! Knock!
+>**Me**: Knock! Knock!
 >
-> Interviewer: Who's there?
+>**Interviewer**: Who's there?
+
