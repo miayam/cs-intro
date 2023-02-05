@@ -2,6 +2,8 @@
 A sorting algorithm that uses loop (for, while, do-while).
 
 ## Bubble Sort
+It's so boring. I just copy-paste it from [here](https://btholt.github.io/complete-intro-to-computer-science/bubble-sort).
+
 The algorithm is pretty simple: compare two items in an array that are
 next to each other. If they're out of order (that is, the larger one
 comes first in the array) swap them. Then move forward one index,
