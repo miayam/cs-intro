@@ -7,12 +7,12 @@
  * `leftIndex` and `rightIndex` track the last position of
  * their corresponding arrays. Iterate through the new array.
  * While in the loop, if the `left` item is bigger than the
- * one in the `right`, insert the `right` item, otherwise
- * insert the `left` item. Go on until one of those two
- * arrays run out of their items. To accomodate the
+ * one in the `right`, insert the `right` item to `merged`,
+ * otherwise insert the `left` item. Go on until one of those
+ * two arrays run out of their items. To accomodate the
  * leftover, we just insert all items from whichever array
  * (`left` or `right`) that still got items left because
- * it's a sorted array. 
+ * it's sorted. 
  * @param {Number[]} left  - Sorted array
  * @param {Number[]} right - Sorted array
  * @returns {Number[]}
