@@ -1,7 +1,7 @@
 /**
  * Merge two sorted arrays into one.
  * 
- * Assume the two arrays passed down are sorted. We call it
+ * Assume the two arrays passed down are sorted. We call them
  * `left` and `right`. Create a new array called `merged`
  * the size of those two combined. Let two variables called
  * `leftIndex` and `rightIndex` track the last position of
