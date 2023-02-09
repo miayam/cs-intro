@@ -23,9 +23,7 @@ Tell your friend, "Hey, bro, I arrange fruits ordered by its name on this table.
 
 Your friend is up for the challenge!
 
-Your friend can only ask, "Is this it?" and point at the ruler. You can only answer, "Nope, move right further", "Nope, move left further", or "Yes, you got it! Here's your money! Go f*ck yourself!".
-
-Here's the catch. He can only ask "Is this it?" no more than 3 times. How?
+Your friend can only ask "Is this it?" and point at the ruler no more than 3 times. You can only answer, "Nope, move right further", "Nope, move left further", or "Yes, you got it! Here's your money! Go f*ck yourself!".
 
 Your friend is a computer scientist. He probably can figure it out.
 
