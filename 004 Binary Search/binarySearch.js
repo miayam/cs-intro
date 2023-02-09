@@ -7,14 +7,13 @@
 function binarySearch(array, item) {
   let lowIndex = 0;
   let highIndex = array.length - 1;
-  let position = -1;
+  let position; // Points to undefined
 
-  while (true) {
+  while (lowIndex <= highIndex) {
     let middleIndex = Math.floor((lowIndex + highIndex) / 2);
 
     if (item === array[middleIndex]) {
       position = middleIndex;
-      break;
     } else if (item > array[middleIndex]) {
       highIndex++;
     } else if (item < array[middleIndex]) {
