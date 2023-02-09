@@ -25,6 +25,6 @@ Your friend is up for the challenge!
 
 Your friend can only ask, "Is this it?" and point at the ruler. You can only answer, "Nope, move right further", "Nope, move left further", or "Yes, you got it! Here's your money! Go f*ck yourself!".
 
-Here's the catch. He can you ask "is this it?" 4 times.
+Your friend is a computer scientist. He probably can figure it out.
 
 ...to be continued
