@@ -19,10 +19,10 @@ Let's say we arrange fruits ordered by its name on the table. Apple, banana, che
 
 Imagine that table has big ruler right below it to tell you each item's position. We place apple at 0, banana at 1, cherry at 2, durian at 3, and eggfruit at 4. We cover the table with the black sheets.
 
-Tell your friend, "Hey, bro, I arrange fruits on this table. If you can guess the position of durian, I give you 10 bucks! What do you say?"
+Tell your friend, "Hey, bro, I arrange fruits on this table. If you can guess the position of durian, I'll give you 10 bucks! What do you say?"
 
 Your friend is up for the challenge!
 
-Your friend can only ask "is this it?" and point at the ruler. You can only answer, "Nope, Move right further", "Nope, move left further", or "Yes, you got it!".
+Your friend can only ask "is this it?" and point at the ruler. You can only answer, "Nope, Move right further", "Nope, move left further", or "Yes, you got it! Here's your money! Go f*ck yourself!".
 
 ...to be continued
