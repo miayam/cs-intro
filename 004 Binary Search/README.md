@@ -27,4 +27,6 @@ Your friend can only ask, "Is this it?" and point at the ruler. You can only ans
 
 Your friend is a computer scientist. He probably can figure it out.
 
+Here's the catch. He can only ask "Is this is" 3 times. How?
+
 ...to be continued
