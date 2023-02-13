@@ -51,6 +51,4 @@ Again, he asks, "Is this it?" and point his finger at the ruler (number 5).
 
 You answer, "Yes, you got it! Here's your money!"
 
-Your friend is smart! He only require 2 tries to guess it. Bravo!
-
 > That's my thought process.
