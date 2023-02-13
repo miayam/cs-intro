@@ -19,7 +19,7 @@ Let's say we arrange fruits ordered by its name on the table. Apple, banana, che
 
 Imagine that table has a big ruler right below it to tell you each item's position. We place apple at 0, banana at 1, cherry at 2, durian at 3, dates at 4, eggfruit at 5, and tangerine at 6. We cover the table with the black sheets.
 
-Tell your friend, "Hey, bro, I arrange fruits ordered by its name on this table. If you can guess the position of eggfruit, I'll give you 10 bucks! What do you say?"
+Tell your friend, "Hey, I arrange fruits ordered by its name on this table. If you can guess the position of eggfruit, I'll give you 10 bucks! What do you say?"
 
 Your friend is up for the challenge!
 
@@ -27,4 +27,30 @@ Your friend can only ask "Is this it?" and point at the ruler no more than 3 tim
 
 Your friend is a computer scientist. He probably can figure it out.
 
-...to be continued
+He try his first try at the middle (number 3) and ask, "Is this it?"
+
+You'd say, "Nope, move right further".
+
+You friend contemplate, "Hmmm, it is no use guessing the other half. How can I find the new middle position?"
+
+He move the current rightmost position (number 6) to the right (number 7) and split it into halves.
+
+He use `Math.floor` to find it. What is the result of 7 divided by 2 using `Math.floor`? It's still 3.
+
+He move the current rightmost position to the right (number 8) and split them into halves again. It's 4.
+
+Again, he asks, "Is this it?" and point his finger at the ruler (number 4).
+
+You'd say, "Nope, move right further".
+
+He move the current rightmost position to the right (number 9) and split them into halves again. It's still 4.
+
+He move the current rightmost position to the right (number 10) and split them into halves again. It's 5.
+
+Again, he asks, "Is this it?" and point his finger at the ruler (number 5).
+
+You answer, "Yes, you got it! Here's your money!"
+
+Your friend is smart! He only require 2 tries to guess it. Bravo!
+
+> That's my thought process.
