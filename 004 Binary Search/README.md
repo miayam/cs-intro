@@ -27,7 +27,7 @@ Your friend can only ask "Is this it?" and point at the ruler no more than 3 tim
 
 Your friend is a computer scientist. He probably can figure it out.
 
-He try his first try at the middle (number 3) and ask, "Is this it?"
+He starts his first try at the middle (number 3) and ask, "Is this it?"
 
 You'd say, "Nope, move right further".
 
