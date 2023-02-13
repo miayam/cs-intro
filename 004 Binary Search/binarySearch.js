@@ -7,7 +7,7 @@
 function binarySearch(array, item) {
   let lowIndex = 0;
   let highIndex = array.length - 1;
-  let position; // Points to undefined
+  let position; // The default value is undefined
 
   while (lowIndex <= highIndex) {
     let middleIndex = Math.floor((lowIndex + highIndex) / 2);
