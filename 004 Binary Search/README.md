@@ -33,19 +33,19 @@ You'd say, "Nope, move right further".
 
 You friend contemplate, "Hmmm, it is no use guessing the other half. How can I find the new middle position?"
 
-He move the current rightmost position (number 6) to the right (number 7) and split it into halves.
+He moves the current rightmost position (number 6) to the right (number 7) and split it into halves.
 
 He use `Math.floor` to find it. What is the result of 7 divided by 2 using `Math.floor`? It's still 3.
 
-He move the current rightmost position to the right (number 8) and split them into halves again. It's 4.
+He moves the current rightmost position to the right (number 8) and split them into halves again. It's 4.
 
 Again, he asks, "Is this it?" and point his finger at the ruler (number 4).
 
 You'd say, "Nope, move right further".
 
-He move the current rightmost position to the right (number 9) and split them into halves again. It's still 4.
+He moves the current rightmost position to the right (number 9) and split them into halves again. It's still 4.
 
-He move the current rightmost position to the right (number 10) and split them into halves again. It's 5.
+He moves the current rightmost position to the right (number 10) and split them into halves again. It's 5.
 
 Again, he asks, "Is this it?" and point his finger at the ruler (number 5).
 
