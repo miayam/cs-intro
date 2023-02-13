@@ -5,7 +5,7 @@
  */
 function bubbleSort(array) {
   let swapped = true;
-  let remainingArrayToSwap = array.length;
+  let remainingArrayToSwap = array.length - 1; // We exclude the last item or else it will try to swap item beyond. 
 
   while(swapped) {
     swapped = false;
