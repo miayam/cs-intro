@@ -31,7 +31,7 @@ He starts his first try at the middle (number 3) and ask, "Is this it?"
 
 You'd say, "Nope, move right further".
 
-You friend contemplate, "Hmmm, it is no use guessing the other half. How can I find the new middle position?"
+You friend contemplates, "Hmmm, it is no use guessing the other half. How can I find the new middle position?"
 
 He moves the current rightmost position (number 6) to the right (number 7) and split it into halves.
 
