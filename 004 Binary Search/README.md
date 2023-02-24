@@ -50,5 +50,3 @@ He moves the current rightmost position to the right (number 10) and split them 
 Again, he asks, "Is this it?" and point his finger at the ruler (number 5).
 
 You answer, "Yes, you got it! Here's your money!"
-
-> That's my thought process.
