@@ -33,7 +33,7 @@ class LinkedList {
       let current = this[head];
       let currentIndex = 0;
 
-      while(current.next !== 0 && currentIndex < index) {
+      while(current.next !== null && currentIndex < index) {
         current = current.next
         currentIndex++;
       }
@@ -72,4 +72,17 @@ class LinkedList {
 
     throw new RangeError(`Index ${index} does not exist in the list.`);
   }
+
+  *values(){
+    let current = this[head];
+
+    while (current !== null) {
+      yield current.data;
+      current = current.next;
+    }
+  }
+
+  [Symbol.iterator]() {
+    return this.values();
+  } 
 }
