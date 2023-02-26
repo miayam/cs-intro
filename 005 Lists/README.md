@@ -4,4 +4,6 @@
 
 ## Doubly Linked List
 
-## Circular Linked List
+## Circular Singly Linked List
+
+## Circular Doubly Linked List

@@ -35,7 +35,7 @@ You friend contemplates, "Hmmm, it is no use guessing the other half. How can I 
 
 He moves the current rightmost position (number 6) to the right (number 7) and split it into halves.
 
-He use `Math.floor` to find it. What is the result of 7 divided by 2 using `Math.floor`? It's still 3.
+He uses `Math.floor`. What is the result of 7 divided by 2? It's still 3.
 
 He moves the current rightmost position to the right (number 8) and split them into halves again. It's 4.
 
