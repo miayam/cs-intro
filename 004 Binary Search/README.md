@@ -17,7 +17,7 @@ I finally got it when I thought of binary search as a way to find an object in a
 
 Let's say we arrange fruits ordered by its name on the table. Apple, banana, cherry, durian, dates, eggfruit, and tangerine. 
 
-Imagine that table has a big ruler right below it to tell you each item's position. We place apple at 0, banana at 1, cherry at 2, durian at 3, dates at 4, eggfruit at 5, and tangerine at 6. We cover the table with the black sheets.
+Imagine that table has a big ruler right below it to tell you each item's position. We place apple at 0, banana at 1, cherry at 2, durian at 3, dates at 4, eggfruit at 5, and tangerine at 6. We cover the table with the black sheet.
 
 Tell your friend, "Hey, I arrange fruits ordered by its name on this table. If you can guess the position of eggfruit, I'll give you 10 bucks! What do you say?"
 
