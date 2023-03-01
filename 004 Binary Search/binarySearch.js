@@ -7,21 +7,24 @@
 function binarySearch(array, item) {
   let lowIndex = 0;
   let highIndex = array.length - 1;
-  let position; // The default value is undefined
 
   while (lowIndex <= highIndex) {
-    let middleIndex = Math.floor((lowIndex + highIndex) / 2);
+    const middleIndex = Math.floor((lowIndex + highIndex) / 2);
 
     if (item === array[middleIndex]) {
-      position = middleIndex;
-    } else if (item > array[middleIndex]) {
-      highIndex++;
-    } else if (item < array[middleIndex]) {
+      return middleIndex;
+    }
+
+    if (item > array[middleIndex]) {
+      highIndex++
+    }
+
+    if (item < array[middleIndex]) {
       lowIndex++;
     }
   }
 
-  return position;
+  return undefined;
 }
 
-console.log(binarySearch([5, 4, 3, 2, 1], 2));
+console.log(binarySearch([1, 2, 5, 7, 9, 20], 2));
