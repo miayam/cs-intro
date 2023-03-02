@@ -13,7 +13,7 @@
  * @returns {Number[]}
  */
 function quickSort(array) {
-  if (array.length <= 1) {
+  if (array.length < 2) {
     return array;
   }
 
