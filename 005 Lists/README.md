@@ -1,6 +1,6 @@
 # List
 
-All implemtations are written by Nicholas C. Zakas:
+All implementations are written by Nicholas C. Zakas:
 
 * [Linked List](https://github.com/humanwhocodes/computer-science-in-javascript/blob/master/src/data-structures/linked-list/linked-list.js)
 * [Circular Linked List](https://github.com/humanwhocodes/computer-science-in-javascript/blob/master/src/data-structures/circular-linked-list/circular-linked-list.js)
