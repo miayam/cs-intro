@@ -26,24 +26,22 @@ function mergeTwoSortedArrays(left, right) {
   let rightIndex = 0; // Track the last position of `right`.
 
   for (let index = 0; index < merged.length; index++) {
-    if (rightIndex < left.length && leftIndex < left.length) {
-      merged[index] = (
-        left[leftIndex] > right[rightIndex]
-      ) ? (
+    if (rightIndex < right.length && leftIndex < left.length) {
+      const item = left[leftIndex] > right[rightIndex] ? (
         right[rightIndex++]
       ) : (
         left[leftIndex++]
       );
+
+      merged[index] = item; 
     } else if (rightIndex < right.length) {
       // Accomodate the leftover from `right`.
       merged[index] = right[rightIndex++];
-    } else if (leftIndex < left.length) {
+    } else {
       // Accomodate the leftover from `left`.
       merged[index] = left[leftIndex++];
     }
   }
-
-  return merged;
 }
 
 /**
@@ -59,13 +57,16 @@ function mergeSort(array) {
   }
 
   const middleIndex = Math.floor(array.length / 2);
-  const leftArray = array.slice(0, middleIndex);
-  const rightArray = array.slice(middleIndex);
+  const left = array.slice(0, middleIndex);
+  const right = array.slice(middleIndex);
 
-  const sortedLeftArray = mergeSort(leftArray);
-  const sortedRightArray = mergeSort(rightArray);
+  const sortedLeft = mergeSort(left);
+  const sortedRight = mergeSort(right);
 
-  return mergeTwoSortedArrays(sortedLeftArray, sortedRightArray);
+  return mergeTwoSortedArrays(
+    sortedLeft,
+    sortedRight
+  );
 }
 
 console.log(mergeSort([5, 4, 3, 2, 10, 200, 7, 9, 44]));
