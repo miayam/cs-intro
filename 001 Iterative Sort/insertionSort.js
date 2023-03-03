@@ -26,18 +26,18 @@ function insertionSort(array) {
     let indexToInsert = unsortedIndex;
 
     // We iterate the sorted items from the last sorted index to the first one (from right to left).
-    let sortedIndexToMove = unsortedIndex - 1; 
+    let currentSortedIndex = unsortedIndex - 1;
 
     // Move the sorted item to the right one by one if it's larger than the unsorted item passed down (item to insert).
     // Go on until the condition no longer met.
-    while (array[sortedIndexToMove] > itemToInsert && sortedIndexToMove >= 0) {
-      array[indexToInsert] = array[sortedIndexToMove];
-      sortedIndexToMove--;
+    while (array[currentSortedIndex] < itemToInsert && currentSortedIndex >= 0) {
+      array[indexToInsert] = array[currentSortedIndex];
+      currentSortedIndex--;
       indexToInsert--; // Keep track of the index until the loop stops.
     }
 
     // Insert the item to the correct index.
-    array[indexToInsert] = itemToInsert;
+    array[indexToInsert] = numberToInsert;
   }
 
   return array;
