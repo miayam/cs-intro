@@ -37,7 +37,7 @@ function insertionSort(array) {
     }
 
     // Insert the item to the correct index.
-    array[indexToInsert] = numberToInsert;
+    array[indexToInsert] = itemToInsert;
   }
 
   return array;
