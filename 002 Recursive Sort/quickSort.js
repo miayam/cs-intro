@@ -17,23 +17,22 @@ function quickSort(array) {
     return array;
   }
 
+  const pivotIndex = Math.floor(Math.random() * array.length);
+  const pivot = array[pivotIndex];
   const less = [];
   const greater = [];
-  const pivotPosition = Math.floor(Math.random() * array.length); // Random number between 0 - (array.length - 1).
-  const pivot = array[pivotPosition]; // Random pivot.
 
   for (let index = 0; index < array.length; index++) {
-    if (index === pivotPosition) { // Skip pivot.
+    if (array[index] === pivot) {
       continue;
     }
 
-    const item = array[index];
-    if (item > pivot) {
-      greater.push(item);
-    } else if (item < pivot) {
-      less.push(item);
-    } else {
-      less.push(item);
+    if (array[index] > pivot) {
+      greater.push(array[index]);
+    }
+
+    if (array[index] <= pivot) {
+      less.push(array[index]);
     }
   }
 
