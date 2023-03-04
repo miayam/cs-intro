@@ -1,7 +1,7 @@
 /**
  * Get base-10 digit from a number (ones, tens, hundreds, thousands, and so on)
  * @param {Number} number
- * @param {Number} place - ones, tens, hundres, thousands, and so on
+ * @param {Number} place - ones, tens, hundreds, thousands, and so on
  * @returns {Number}
  */
 function getDigit(number, place) {
