@@ -9,14 +9,14 @@
  */
 const head = Symbol("head");
 
-/**
+ /**
  * Represents a single node in a LinkedList.
- * @class LinkedListNode
+ * @class Node 
  */
-class LinkedListNode {
-
+class Node {
+ 
     /**
-     * Creates a new instance of LinkedListNode.
+     * Creates a new instance of Node.
      * @param {*} data The data to store in the node. 
      */
     constructor(data) {
@@ -29,9 +29,9 @@ class LinkedListNode {
         this.data = data;
 
         /**
-         * A pointer to the next node in the LinkedList.
+          * A pointer to the next node in the LinkedList.
          * @property next
-         * @type ?LinkedListNode
+         * @type Node?
          */
         this.next = null;
 
@@ -50,9 +50,9 @@ class LinkedList {
     constructor() {
 
         /**
-         * Pointer to first node in the list.
+          * Pointer to first node in the list.
          * @property head
-         * @type ?LinkedListNode
+         * @type Node?
          * @private
          */
         this[head] = null;
@@ -68,9 +68,9 @@ class LinkedList {
     
         /*
          * Create a new list node object and store the data in it.
-         * This node will be added to the end of the existing list.
+          * This node will be added to the end of the existing list.
          */
-        const newNode = new LinkedListNode(data);
+        const newNode = new Node(data);
                 
         //special case: no nodes in the list yet
         if (this[head] === null) {
@@ -119,9 +119,9 @@ class LinkedList {
     
         /*
          * Create a new list node object and store the data in it.
-         * This node will be inserted into the existing list.
+          * This node will be inserted into the existing list.
          */
-        const newNode = new LinkedListNode(data);
+        const newNode = new Node(data);
                 
         // special case: no nodes in the list yet
         if (this[head] === null) {
@@ -205,9 +205,9 @@ class LinkedList {
     
         /*
          * Create a new list node object and store the data in it.
-         * This node will be inserted into the existing list.
+          * This node will be inserted into the existing list.
          */
-        const newNode = new LinkedListNode(data);
+        const newNode = new Node(data);
                 
         // special case: no nodes in the list yet
         if (this[head] === null) {
