@@ -23,13 +23,13 @@ Tell your friend, "Hey, I arrange fruits ordered by its name on this table. If y
 
 Your friend is up for the challenge!
 
-Your friend can only ask "Is this it?" and point at the ruler no more than 3 times. You can only answer, "Nope, move right further", "Nope, move left further", or "Yes, you got it! Here's your money!"
+Your friend can only ask "Is this it?" and point at the ruler no more than 3 times. You can only answer, "Nope. Too low", "Nope. Too high.", or "Yes, you got it! Here's your money!"
 
 Your friend is a computer scientist. He probably can figure it out.
 
 He starts his first try at the middle (number 3) and ask, "Is this it?"
 
-You'd say, "Nope, move right further".
+You'd say, "Nope. Too low."
 
 You friend contemplates, "Hmmm, it is no use guessing the other half. How can I find the new middle position?"
 
@@ -41,7 +41,7 @@ He moves the current rightmost position to the right (number 8) and split them i
 
 Again, he asks, "Is this it?" and point his finger at the ruler (number 4).
 
-You'd say, "Nope, move right further".
+You'd say, "Nope. Too low".
 
 He moves the current rightmost position to the right (number 9) and split them into halves again. It's still 4.
 
